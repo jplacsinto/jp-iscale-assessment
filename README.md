@@ -17,4 +17,4 @@ A basic PHP project that showcases repository patterns and dependency injection.
 2. Install dependencies:
 
    ```sh
-   npm install
+   composer install
