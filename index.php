@@ -6,7 +6,7 @@ require_once 'vendor/autoload.php';
 $config = require_once 'config/dbconfig.php';
 
 // Import necessary classes and namespaces.
-use App\Database\Database;
+use App\Databases\Database;
 use App\Models\News;
 use App\Models\Comment;
 use App\Repositories\NewsRepository;

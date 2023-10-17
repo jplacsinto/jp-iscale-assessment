@@ -3,7 +3,7 @@
 /**
  * @todo: add error handling
  */
-namespace App\Database;
+namespace App\Databases;
 
 use PDO;
 use PDOException;

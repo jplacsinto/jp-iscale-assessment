@@ -1,7 +1,7 @@
 <?php
 namespace App\Repositories;
 
-use App\Database\Database;
+use App\Databases\Database;
 use App\Interfaces\CommentRepositoryInterface;
 use App\Models\Model;
 use App\Utils\Collection;

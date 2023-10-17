@@ -1,7 +1,7 @@
 <?php
 namespace App\Repositories;
 
-use App\Database\Database;
+use App\Databases\Database;
 use App\Interfaces\NewsRepositoryInterface;
 use App\Models\Model;
 use App\Utils\Collection;
@@ -43,7 +43,7 @@ class NewsRepository extends BaseRepository implements NewsRepositoryInterface
                  FROM $table 
                  LEFT JOIN $commentTable as comments
                  ON comments.news_id = $table.id";
-                 
+
         // Execute query and check if successful.
         $items = $this->db->fetchAllFromQuery($query);
         if ($items === false) {

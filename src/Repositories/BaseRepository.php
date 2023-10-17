@@ -2,7 +2,7 @@
 namespace App\Repositories;
 
 use App\Interfaces\BaseRepositoryInterface;
-use App\Database\Database;
+use App\Databases\Database;
 use App\Models\Model;
 use App\Utils\Collection;
 
