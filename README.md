@@ -2,10 +2,6 @@
 
 This repository contains the code for the JP iScale Assessment project.
 
-## Table of Contents
-
-- [About](#about)
-- [Installation](#installation)
 
 ## About
 
