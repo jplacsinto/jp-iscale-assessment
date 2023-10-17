@@ -1,2 +1,24 @@
-# iscale-assessment
- iscale-assessment
+# jp-iscale-assessment
+
+This repository contains the code for the JP iScale Assessment project.
+
+## Table of Contents
+
+- [About](#about)
+- [Installation](#installation)
+
+## About
+
+A basic PHP project that showcases repository patterns and dependency injection.
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/jplacsinto/jp-iscale-assessment.git
+
+2. Install dependencies:
+
+   ```sh
+   npm install
